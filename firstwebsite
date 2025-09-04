@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+body{
+background-color: green;
+}
+
+h1{
+color:green; 
+font-family:arial;
+font-size:40px;
+border:10px solid red;
+padding:10px;
+background-color:tomato;
+flex-wrap:wrap;
+}
+
+h2{
+color: green; 
+font-family:arial;
+font-size:20px;
+border: 10px solid red;
+padding:10px;
+background-color:tomato;
+flex-wrap:wrap;
+}
+
+p{
+color: green;
+font-family:arial;
+font-size:15px; 
+border: 10px solid red; 
+padding:10px; 
+background-color:tomato;
+flex-wrap:wrap;
+}
+
+.flex-container{
+display: flex;
+flex-direction: row;
+align-items:flex-start;
+}
+</style>
+
+<head>
+<title>Tomatoes</title>
+</head>
+
+
+<body>
+<h1>Tomatoes</h1>
+<h2>Introduction</h2>
+<div class="flex-container">
+
+<p>The tomato (US: /təˈmeɪtoʊ/, UK: /təˈmɑːtoʊ/; Solanum lycopersicum) is a plant whose fruit is an edible berry that is eaten as a vegetable. The tomato is a member of the nightshade family that includes tobacco, potato, and chili peppers. It originated from western South America, and may have been domesticated there or in Mexico (Central America). It was introduced to the Old World by the Spanish in the Columbian exchange in the 16th century.</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/500px-Tomato_je.jpg" style="width:200px;height:auto" border="red">
+<div>
+<body>
+
+<body>
+
+<div class="flex-container">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Tomato_P5260299b.jpg" style="width:200px;height:auto" border="red">
+<div>
+
+</body>
+
+</html>
