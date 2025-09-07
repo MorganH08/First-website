@@ -23,7 +23,7 @@ font-size:20px;
 border: 10px solid red;
 padding:10px;
 background-color:tomato;
-flex-wrap:wrap;
+align-content:center;
 }
 
 p{
@@ -36,11 +36,13 @@ background-color:tomato;
 flex-wrap:wrap;
 }
 
-.flex-container{
-display: flex;
+.container{
+display: grid;
 flex-direction: row;
 align-items:flex-start;
+gap:25px 25px;
 }
+
 </style>
 
 <head>
@@ -51,20 +53,21 @@ align-items:flex-start;
 <body>
 <h1>Tomatoes</h1>
 <h2>Introduction</h2>
-<div class="flex-container">
-
+<div class="container">
 <p>The tomato (US: /təˈmeɪtoʊ/, UK: /təˈmɑːtoʊ/; Solanum lycopersicum) is a plant whose fruit is an edible berry that is eaten as a vegetable. The tomato is a member of the nightshade family that includes tobacco, potato, and chili peppers. It originated from western South America, and may have been domesticated there or in Mexico (Central America). It was introduced to the Old World by the Spanish in the Columbian exchange in the 16th century.</p>
+<div>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/500px-Tomato_je.jpg" style="width:200px;height:auto" border="red">
-<div>
-<body>
 
-<body>
-
+<h2>Growing tomatos</h2>
+<p>Greenhouse tomato production in large-acreage commercial greenhouses and owner-operator stand-alone or multiple-bay greenhouses is increasing, providing fruit during those times of the year when field-grown fruit is not readily available. Smaller fruit (cherry and grape), or cluster tomatoes (fruit-on-the-vine) are the fruit of choice for the large commercial greenhouse operators while the beefsteak varieties are the choice of owner-operator growers.[79] Tomatoes are also grown using hydroponics.[80]</p>
 <div class="flex-container">
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Tomato_P5260299b.jpg" style="width:200px;height:auto" border="red">
 <div>
 
+<div class="container">
+<p>Visit this link for more information about tomatoes: <a href="https://en.wikipedia.org/wiki/Tomato">Tomatoes info</a></p>
+<div>
 </body>
 
 </html>
